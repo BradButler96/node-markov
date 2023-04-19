@@ -19,16 +19,4 @@ test('create markov text from string input', function () {
 })
 
 
-describe('test text conversion', function () {
-    test('convert text from file to markov text', function () {
-        fileToText(process.argv[1])
-    })
-})
 
-// describe('test MarkovMachine methods', function () {
-//     test('test making chains', function () {
-//         let txt = 'I would not like them Here or there. I would not like them Anywhere. I do not like Green eggs and ham. I do not like them, Sam-I-am'
-//         let markov = new MarkovMachine(txt)
-
-//     })
-// })
